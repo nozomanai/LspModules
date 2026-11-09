@@ -1,0 +1,42 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# 本机 SDK 路径，不要提交
+local.properties
+
+# Android 构建产物
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.idsig
+output-metadata.json
+
+# NDK / CMake
+.externalNativeBuild/
+.cxx/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+captures/
+.navigation/
+
+# 签名密钥
+*.jks
+*.keystore
+*.keystore.properties
+
+# 分析与日志
+*.hprof
+*.log
+
+# 系统杂项
+.DS_Store
+Thumbs.db
+Desktop.ini
